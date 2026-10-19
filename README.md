@@ -1,6 +1,6 @@
 # SI7011 · Evento evaluativo 1 · Parte B
 
-**Integrantes:** _nombre 1_ (`usuario-github-1`) · _nombre 2_ (`usuario-github-2`)
+**Integrantes:** Andres Agudelo (`andres22feli`) · Israel Garnica(`israel2178742-lang`)
 
 ## Contenido
 
