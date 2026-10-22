@@ -1,27 +1,10 @@
-# SI7011 · Evento evaluativo 1 · Parte B
+# SI7011 · Aprendizaje profundo · EAFIT
 
-**Integrantes:** Andres Agudelo (`andres22feli`) · Israel Garnica(`israel2178742-lang`)
+**Integrantes:** Andres Agudelo (`andres22feli`) · Israel Garnica (`israel2178742-lang`)
 
-## Contenido
+Repositorio único de la pareja para todo el curso. Cada evento evaluativo va en su carpeta.
 
-| Ruta | Qué es |
-|---|---|
-| [`docs/analisis.md`](docs/analisis.md) | El documento de análisis |
-| [`notebook/sesion_02_6_integrador_covertype.ipynb`](notebook/sesion_02_6_integrador_covertype.ipynb) | El ejercicio integrador ejecutado, con los 4 TODO |
-| `mlflow/mlflow.db`, `mlflow/mlruns/` | Las corridas registradas en MLflow |
-
-## Cómo reproducir
-
-1. Abrir el notebook en Colab o Kaggle y agregar el dataset Covertype (Kaggle: `uciml/forest-cover-type-dataset`).
-2. Ejecutarlo de principio a fin. Al terminar, copiar `mlflow.db` y `mlruns/` a la carpeta `mlflow/`.
-
-Para ver las corridas, desde la raíz del repositorio:
-
-```bash
-cd mlflow
-mlflow ui --backend-store-uri sqlite:///mlflow.db
-```
-
-## Corrida elegida
-
-_Nombre de la corrida de MLflow elegida por validación y su resultado en prueba (una sola vez)._
+| Carpeta | Evento | Notebook |
+|---|---|---|
+| [`evento1/`](evento1/) | Evento 1 · Aprendizaje y entrenamiento (S01–S02) | [`sesion_02_6_integrador_covertype.ipynb`](evento1/sesion_02_6_integrador_covertype.ipynb) |
+| [`evento2/`](evento2/) | Evento 2 · Arquitecturas para visión (S03) | [`sesion_03_6_integrador_eurosat.ipynb`](evento2/sesion_03_6_integrador_eurosat.ipynb) |

@@ -1,15 +1,20 @@
-# Datos: no se suben al repositorio
-covtype.csv
+# Solo se suben los notebooks: ni datos, ni checkpoints, ni corridas de MLflow
+
+# Datos
 *.csv
-!docs/**/*.csv
 scikit_learn_data/
 data/
+EuroSAT*/
+*.zip
+
+# Checkpoints y artefactos que escriben los notebooks
+*.pt
+*.pth
+*.ckpt
+data_card.json
+mlruns/
+mlflow.db
 
 # Python y Jupyter
 __pycache__/
 .ipynb_checkpoints/
-
-# Artefactos sueltos que el notebook escribe en la raíz (los que importan ya están en mlflow/mlruns/)
-/best.pt
-/data_card.json
-/predicciones.csv
